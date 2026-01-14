@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechPulse Australia - Customer Support</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Logo -->
+  <div class="logo">
+    <img src="https://i.ibb.co/ZL9QwVc/techpulse-logo.png" alt="TechPulse Australia Logo" class="logo-img">
+    <span class="logo-text">TechPulse Australia</span>
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav class="nav-container">
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="support.html" style="color: #0072d2;">Customer Support</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container">
+    <h1 class="page-heading">Customer Support</h1>
+
+    <!-- Support Flowchart (Graphical Format + Box Model) -->
+    <div class="box-model">
+      <h2>Support Process Flowchart</h2>
+      <img src="C:\Users\lenovo\Desktop\网页3\support.png" alt="Customer Support Flowchart" style="max-width: 100%; height: auto; margin: 1.5rem 0;">
+      <p style="margin-top: 1rem; text-align: center; color: #666;">
+        Our streamlined process ensures fast resolution for all inquiries (2 core paths: Technical Issue / Returns)
+      </p>
+    </div>
+
+
+    <!-- Contact Form -->
+    <div class="box-model">
+      <h2>Contact Our Support Team</h2>
+      <form style="width: 100%; max-width: 500px; margin-top: 1.5rem;">
+        <div style="margin-bottom: 1.5rem;">
+          <label for="name" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Full Name</label>
+          <input type="text" id="name" name="name" required style="width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 4px;">
+        </div>
+        <div style="margin-bottom: 1.5rem;">
+          <label for="email" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Email Address</label>
+          <input type="email" id="email" name="email" required style="width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 4px;">
+        </div>
+        <div style="margin-bottom: 1.5rem;">
+          <label for="issue" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Issue Type</label>
+          <select id="issue" name="issue" style="width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 4px;">
+            <option value="technical">Technical Issue</option>
+            <option value="return">Return/Refund</option>
+            <option value="warranty">Warranty Claim</option>
+            <option value="other">Other Inquiry</option>
+          </select>
+        </div>
+        <div style="margin-bottom: 1.5rem;">
+          <label for="message" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Message</label>
+          <textarea id="message" name="message" rows="4" required style="width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 4px;"></textarea>
+        </div>
+        <button type="submit" class="btn">Send Inquiry</button>
+      </form>
+    </div>
+
+    <!-- Contact Information -->
+    <div class="box-model">
+      <h2>Direct Contact Details</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; width: 100%; max-width: 600px; margin-top: 1rem;">
+        <div style="text-align: center;">
+          <h3 style="color: #0072d2; margin-bottom: 1rem;">Phone Support</h3>
+          <p>+61 3 9876 5432</p>
+          <p style="color: #666; font-size: 0.9rem;">Mon-Fri: 9am-6pm AEST</p>
+        </div>
+        <div style="text-align: center;">
+          <h3 style="color: #0072d2; margin-bottom: 1rem;">Email Support</h3>
+          <p>support@techpulseau.com</p>
+          <p style="color: #666; font-size: 0.9rem;">24/7 Response</p>
+        </div>
+        <div style="text-align: center;">
+          <h3 style="color: #0072d2; margin-bottom: 1rem;">Live Chat</h3>
+          <p>Available on Homepage</p>
+          <p style="color: #666; font-size: 0.9rem;">8am-10pm AEST</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer: Match Reference Design -->
+<footer class="footer-container">
+  <div class="footer-content">
+    <!-- Quick Links Section -->
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Product Portfolio</a></li>
+        <li><a href="support.html">Customer Support</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+
+    <!-- Services Section -->
+    <div class="footer-section">
+      <h3>Services</h3>
+      <ul class="footer-links">
+        <li><a href="#">Front-end Development</a></li>
+        <li><a href="#">UI/UX Design</a></li>
+        <li><a href="#">Responsive Development</a></li>
+        <li><a href="#">Product Support</a></li>
+        <li><a href="#">Warranty & Repairs</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Information Section -->
+    <div class="footer-section">
+      <h3>Contact Information</h3>
+      <div class="contact-info">
+        <p>123 Tech Blvd, Sydney NSW 2000, Australia</p>
+        <p>info@techgearaustralia.com</p>
+        <p>+61 2 9876 5432</p>
+      </div>
+    </div>
+
+    <!-- Focus Section -->
+    <div class="footer-section">
+      <h3>Our Focus</h3>
+      <p>Deliver high-quality ICT gadgets, exceptional customer service, and user-centric digital experiences to empower Australians.</p>
+    </div>
+  </div>
+
+  <!-- Copyright Section -->
+  <div class="footer-bottom">
+    <p>2024 TechGear Australia. All rights reserved. | Designed by Rui</p>
+  </div>
+</footer>
+</body>
+</html>
